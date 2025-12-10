@@ -96,7 +96,7 @@
         <aside class="sidebar">
             <div class="logo">
                 <div class="logo-icon"><i class="fas fa-graduation-cap"></i></div>
-                <div class="logo-text">EduSys</div>
+                <div class="logo-text">SDE</div>
             </div>
             <nav class="nav-menu">
                 <a href="{{ route('students.index') }}" class="nav-item {{ request()->routeIs('students.index') ? 'active' : '' }}"><i class="fas fa-users"></i> Estudiantes</a>
